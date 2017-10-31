@@ -1,0 +1,84 @@
+*{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.img-responsive{
+  width: 100%;
+
+}
+
+.glyphicon.glyphicon-chevron-right{
+   color:black;
+}
+
+.glyphicon.glyphicon-chevron-left{
+   color:black;
+}
+
+
+
+h3 {
+    text-align: center;
+}
+
+
+.row{
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+.flex-container {
+
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+ align-items: center;
+  height: 80px;
+  text-align: center;
+}
+
+.flex-item {
+  font-family: 'Gloria Hallelujah', cursive;
+    background-color: white;
+    width:200px;
+    height: 30px;
+    margin: 5px;
+    align-content: center;
+    align-self: center;
+    margin: auto;
+    text-align: center;
+    }
+    .footerbar {
+      display: -webkit-flex;
+      display: flex;
+      align-content: center;
+      text-align: center;
+      align-self: center;
+      margin-left: 20px;
+
+    }
+
+    /* unvisited link */
+    a:link {
+        color: blue;
+    }
+
+    /* visited link */
+    a:visited {
+        color: black;
+    }
+
+    /* mouse over link */
+    a:hover {
+        color: yellow;
+    }
+
+    /* selected link */
+    a:active {
+        color: blue;
+    }
+
+
+    footer {
+        display: block;
+        color: white
+    }
